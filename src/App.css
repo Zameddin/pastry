@@ -1,0 +1,3394 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic:wght@400;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic:wght@400;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@400;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vidaloka&display=swap');
+
+@media screen and (min-width: 1150px) {
+  .App {
+   
+    text-align: center;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .inputSearch{
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  body{
+    width: 99.9%;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  }
+  .snowfall{
+    width: 98%;
+    height: auto;
+    background-color: #fff;
+  
+  }
+  .header{
+    width: 102%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: rgb(57, 1, 26);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  nav{
+    width: 83%;
+    justify-content: space-evenly;
+   
+    display: flex;
+
+  }
+  .navButton{
+    margin: 60px 30px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 30px;
+    color: blanchedalmond;
+  }
+  .navButton:hover{
+    color: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  h1{
+   
+    font-size: 40px;
+    margin: 40px;
+  }
+  main{
+    width: 102%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .divmain{
+    height: 850px;
+    width: 90%;
+    background-image: url("./components/images/italian-berry.jpg") ;
+  
+  }
+  #sections{
+    margin: 0px;
+ 
+    padding: 0px;
+    background-color: #fbfff0;
+    width: 250px;
+    height: 850px;
+  }
+  
+  .textMain{
+    font-size: 25px;
+    color: #fff;
+    
+  }
+  p a{
+    color: blanchedalmond;
+    text-decoration: none ;
+  
+  }
+  p a:hover{
+    color: #fff;
+  }
+  .footer{
+    width: 102%;
+    height: 580px;
+    background-color: black;
+  }
+  .footer ul{
+    width: 50px;
+   padding-top: 40px;
+  }
+  li{
+    padding: 15px;
+   list-style-type: none;
+    font-size: 17px;
+    
+  }
+  .footer li a{
+    text-decoration: none;
+    color: blanchedalmond;
+  }
+  hr{
+    width: 900px;
+  }
+  .insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+    color: #FCFEFD;
+    margin: 20px;
+    width: 70px;
+  }
+  .footer1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer1 span{
+    margin:70px 25px;
+  }
+  .phoneNUm{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    color: #FCFEFD;
+    margin: 70px;
+  }
+  .gmail{
+    font-family: 'Roboto', sans-serif;
+    color: #FCFEFD;
+    margin:  1px 10px;
+  }
+  .slogan{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    height: 60px;
+    margin: 60px;
+  }
+  .formContact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .topic{
+    width: 300px;
+    border-radius: 5px;
+    height: 100px;
+  }
+  .inputContact{
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+  }
+  .submit{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+  }
+  .submit:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 8px;
+    border: 1px solid blue;
+  }
+  .about{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about img{
+    margin-top: 30px;
+    width: 20%;
+  }
+  .aboutText{
+    margin-top: 60px;
+      width: 50%;
+      font-size: 18px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+  }
+  .about_2{
+    justify-content: space-around;
+    display: flex;
+  }
+  .about_2 img{
+    width: 350px;
+  }
+  .about_3{
+    justify-content: space-around;
+    display: flex;
+  }
+  .about_3 img{
+    margin-top: 30px;
+  width: 22%;
+  height: 190px;
+  }
+  .about_3 p{
+    margin: 40px;
+    width: 50%;
+  }
+  .divslogan {
+    width: 99.9%;
+  display: flex;
+  justify-content: baseline;
+  }
+  .divslogan hr{
+    position: relative;
+      background: black;
+      height: 1px;
+      top: 92px;
+      width: 220px 
+  }
+  .vacancies{
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    left: 25%;
+    width: 800px;
+  }
+  h2{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .contactDetail{
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .cakes{
+    width: 320px;
+    border-radius: 150px;
+  }
+  .cards{
+    width: 99.9%;
+    justify-content: space-around;
+    display: flex;
+    
+  }
+  .card{
+    height: 440px;
+    width: 250px;
+      border: 2px solid grey;
+      margin: 15px;
+     
+  }
+  .card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .card img{
+    padding: 20px 10px 5px 10px;
+   width: 200px;
+  }
+  .basketButton{
+     
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(57, 1, 26);
+    border: 1px solid rgb(57, 1, 26);
+  }
+  .basketButton:hover{
+    box-shadow: #282c34;
+    color: rgb(57, 1, 26);
+    border: 2px solid rgb(57, 1, 26);
+    background-color: bisque;
+  
+  }
+  .buttonList{
+    margin: 8px;
+    color: #fff;
+    background-color: rgb(92, 144, 181);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+  }
+  .buttonList:hover{
+    margin: 8px;
+    color: rgb(7, 21, 32);
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .ulList{
+    background-color: rgb(221, 202, 179);
+    width: 70%;
+    margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .imgArray{
+    height: 230px;
+  
+  }
+  .divmain li{
+   list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: #282c34;
+  }
+  h4{
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .scrollToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  .cakeHeader{
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid pink;
+    padding: 10px 0px ;
+    background-color: #fbfff0;
+    color: rgb(250, 152, 168);
+    border-radius: 20px;
+  }
+  #scrollToTopMain{
+    width: 50px;
+    height: 50px;
+      right: 20px;
+    background-color:rgb(241, 152, 166); 
+    border: none;
+    padding: 10px;
+    position: fixed;
+    border-radius: 20px;
+   
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  #scrollToTop{
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    background-color: #007bff; 
+    border: none;
+    padding: 10px;
+    position: fixed;
+    border-radius: 20px;
+   
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  .slider{
+    width: 150px;
+    background-color: white;
+    height: 450px;
+    color: black;
+    border-radius: 10px;
+  }
+  .sliderImage{
+    height: 56px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .image{
+    height: 44px;
+    width: 44px;
+    border-radius: 5px;
+    }
+  .container{
+    width: 99.9%;
+    background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+      background-size: cover;
+     
+      height: 700px;
+  }
+  .guest{
+    margin: 40px;
+    font-size: 3rem;
+    padding-top: 150px;
+      color: #052f6e;
+      font-family: "Vidaloka", serif;
+  }
+  .container p{
+    position: relative;
+    width: 50%;
+    margin: 70px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    color: rgb(99, 98, 98);
+  }
+  .container_{
+    width: 99.9%;
+    position: absolute;
+    
+  }
+  #containerButton{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(47, 19, 139);
+    border: none;
+    transition: background-color 1s;
+  }
+  #containerButton:hover{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(86, 109, 193);
+    border: none;
+   
+  }
+  .description{
+    width: 300px;
+    margin: auto;
+  }
+  .vacancies{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .vacancy{
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+    .App {
+    text-align: center;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .inputSearch{
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  body{
+    scroll-behavior: smooth;
+  }
+  
+  .header{
+   width: 103%;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    background-color: rgb(57, 1, 26);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .snowfall{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  
+  }
+  nav{
+    margin-right: 30px;
+    display: flex;
+  }
+  .tatli{
+    width: 180px;
+    height: 180px;
+  }
+  .navButton{
+    margin:  60px 25px;
+    padding: 15px;
+    border-radius: 8px;
+   
+    font-size: 20px;
+    color: blanchedalmond;
+  }
+  .navButton:hover{
+    color: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  h1{
+   
+    font-size: 40px;
+    margin: 40px;
+  }
+  main{
+    width: 103%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .divmain{
+  
+    height: 850px;
+    width: 90%;
+    /* background-color: #FCFEFD; */
+    background-image: url("./components/images/italian-berry.jpg") ;
+  
+  }
+  #sections{
+    margin: 0px;
+    
+    padding: 0px;
+    background-color: #fbfff0;
+    width: 250px;
+    height: 850px;
+  }
+  
+  .textMain{
+    font-size: 25px;
+    color: #fff;
+    
+  }
+  p a{
+    color: blanchedalmond;
+    text-decoration: none ;
+  
+  }
+  p a:hover{
+    color: #fff;
+  }
+  .footer{
+    width: 103%;
+    height: 580px;
+    background-color: black;
+  }
+  .footer ul{
+    width: 50px;
+   padding-top: 40px;
+  }
+  li{
+    padding: 15px;
+   list-style-type: none;
+    font-size: 17px;
+    
+  }
+  .footer li a{
+    text-decoration: none;
+    color: blanchedalmond;
+  }
+  hr{
+    width: 700px;
+  }
+  .insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+    color: #FCFEFD;
+    margin: 20px;
+    width: 70px;
+  }
+  .footer1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer1 span{
+    margin:70px 25px;
+  }
+  .phoneNUm{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    color: #FCFEFD;
+    margin: 70px;
+  }
+  .gmail{
+    font-family: 'Roboto', sans-serif;
+    color: #FCFEFD;
+    margin:  1px 10px;
+  }
+  .slogan{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    height: 60px;
+    margin: 60px;
+  }
+  .formContact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .topic{
+    width: 300px;
+    border-radius: 5px;
+    height: 100px;
+  }
+  .inputContact{
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+  }
+  .submit{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+  }
+  .submit:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 8px;
+    border: 1px solid blue;
+  }
+  .about{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about img{
+    margin-top: 30px;
+    width: 20%;
+  }
+  .aboutText{
+    margin-top: 60px;
+      width: 50%;
+      font-size: 18px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+  }
+  .about_2{
+    justify-content: space-around;
+    display: flex;
+  }
+  .about_2 img{
+    width: 350px;
+  }
+  .about_3{
+    justify-content: space-around;
+    display: flex;
+  }
+  .about_3 img{
+    margin-top: 40px;
+    width: 22%;
+    height: 186px;
+  }
+  .about_3 p{
+    margin: 40px;
+    width: 50%;
+  }
+  .divslogan {
+  display: flex;
+  justify-content: baseline;
+  }
+  .divslogan hr{
+    left: 14px;
+    position: relative;
+      background: black;
+      height: 1px;
+      top: 92px;
+      width: 200px 
+  }
+  .vacancies{
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    left: 14%;
+    width: 800px;
+  }
+  h2{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .contactDetail{
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .cakes{
+    width: 320px;
+    border-radius: 150px;
+  }
+  .cards{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    
+  }
+  .card{
+    height: 440px;
+    width: 250px;
+      border: 2px solid grey;
+      margin: 15px;
+     
+  }
+  .card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .card img{
+    padding: 20px 10px 5px 10px;
+   width: 200px;
+  }
+  .basketButton{
+     
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(57, 1, 26);
+    border: 1px solid rgb(57, 1, 26);
+  }
+  .basketButton:hover{
+    box-shadow: #282c34;
+    color: rgb(57, 1, 26);
+    border: 2px solid rgb(57, 1, 26);
+    background-color: bisque;
+  
+  }
+  .buttonList{
+    margin: 8px;
+    color: #fff;
+    background-color: rgb(92, 144, 181);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+  }
+  .buttonList:hover{
+    margin: 8px;
+    color: rgb(7, 21, 32);
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .ulList{
+    background-color: rgb(221, 202, 179);
+    width: 70%;
+    margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .imgArray{
+    height: 230px;
+  
+  }
+  .divmain li{
+   list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: #282c34;
+  }
+  h4{
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .scrollToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  .cakeHeader{
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid pink;
+    padding: 10px 0px ;
+    background-color: #fbfff0;
+    color: rgb(250, 152, 168);
+    border-radius: 20px;
+  }
+  #scrollToTopMain{
+    width: 50px;
+    height: 50px;
+      right: 20px;
+    background-color:rgb(241, 152, 166); 
+    border: none;
+    padding: 10px;
+    position: fixed;
+    border-radius: 20px;
+   
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  #scrollToTop{
+    width: 50px;
+    height: 50px;
+    
+    right: 20px;
+    background-color: #007bff; 
+    /* position: relative;
+    bottom: 42px;
+    left: 44%; */
+    border: none;
+    padding: 10px;
+    position: fixed;
+    border-radius: 20px;
+   
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  .slider{
+    width: 150px;
+    background-color: white;
+    height: 450px;
+    color: black;
+    border-radius: 10px;
+  }
+  .sliderImage{
+    
+    height: 56px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .image{
+   
+    height: 44px;
+    width: 44px;
+    border-radius: 5px;
+  
+  }
+  .container{
+    background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+      background-size: cover;
+      width: 103%;
+      height: 700px;
+  
+  }
+  .guest{
+    margin: 40px;
+    font-size: 3rem;
+    padding-top: 150px;
+      color: #052f6e;
+      font-family: "Vidaloka", serif;
+  }
+  .container p{
+    position: relative;
+    width: 50%;
+    margin: 70px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    color: rgb(99, 98, 98);
+  }
+  .container_{
+    position: absolute;
+    
+  }
+  #containerButton{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(47, 19, 139);
+    transition: background-color 1s;
+    border: none;
+  }
+  #containerButton:hover{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(86, 109, 193);
+    border: none;
+   
+  }
+  .description{
+    width: 300px;
+    margin: auto;
+  }
+  .vacancies{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .vacancy{
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 700px) {
+  .App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.inputSearch{
+  width: 180px;
+  height: 25px;
+  margin: 15px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.header{
+ width: 128%;
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  background-color: rgb(57, 1, 26);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+nav{
+  margin-right: 30px;
+  display: flex;
+}
+.snowfall{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+
+}
+.tatli{
+  width: 180px;
+  height: 180px;
+}
+.navButton{
+  margin:  60px 25px;
+  padding: 15px;
+  border-radius: 8px;
+ 
+  font-size: 20px;
+  color: blanchedalmond;
+}
+.navButton:hover{
+  color: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+h1{
+ 
+  font-size: 40px;
+  margin: 40px;
+}
+main{
+  width: 127%;
+  display: flex;
+  justify-content: space-between;
+}
+.divmain{
+
+  height: 750px;
+  width: 90%;
+  /* background-color: #FCFEFD; */
+  background-image: url("./components/images/italian-berry.jpg") ;
+
+}
+#sections{
+  margin: 0px;
+  
+  padding: 0px;
+  background-color: #fbfff0;
+  width: 250px;
+  height: 750px;
+}
+
+.textMain{
+  font-size: 25px;
+  color: #fff;
+  
+}
+p a{
+  color: blanchedalmond;
+  text-decoration: none ;
+
+}
+p a:hover{
+  color: #fff;
+}
+.footer{
+  width: 128%;
+  height: 580px;
+  background-color: black;
+}
+.footer ul{
+  width: 50px;
+ padding-top: 40px;
+}
+li{
+  padding: 15px;
+ list-style-type: none;
+  font-size: 17px;
+  
+}
+.footer li a{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+hr{
+  width: 586px;
+}
+.insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+  color: #FCFEFD;
+  margin: 20px;
+  width: 70px;
+}
+.footer1{
+  display: flex;
+  justify-content: space-around;
+}
+.footer1 span{
+  margin:70px 25px;
+}
+.phoneNUm{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  color: #FCFEFD;
+  margin: 70px;
+}
+.gmail{
+  font-family: 'Roboto', sans-serif;
+  color: #FCFEFD;
+  margin:  1px 10px;
+}
+.slogan{
+  width: 128%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    height: 60px;
+    margin: 60px auto;
+
+}
+.formContact{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+}
+
+.topic{
+  width: 300px;
+  border-radius: 5px;
+  height: 100px;
+}
+.inputContact{
+  width: 300px;
+  border-radius: 5px;
+  height: 30px;
+}
+.submit{
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ffff;
+}
+.submit:hover{
+  height: 40px;
+  width: 100px;
+  background-color: #fff;
+  color: blue;
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+.about{
+  width: 128%;
+  display: flex;
+  justify-content: space-around;
+}
+.about img{
+  margin-top: 30px;
+  width: 20%;
+}
+.aboutText{
+  margin-top: 60px;
+    width: 50%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+.about_2{
+  width: 128%;
+  justify-content: space-around;
+  display: flex;
+}
+.about_2 img{
+  width: 350px;
+}
+.about_3{
+  width: 128%;
+  justify-content: space-around;
+  display: flex;
+}
+.about_3 img{
+  margin-top: 40px;
+  width: 22%;
+  height: 190px;
+
+}
+.about_3 p{
+  margin: 40px;
+  width: 50%;
+}
+.divslogan {
+  width: 122%;
+display: flex;
+justify-content: baseline;
+}
+.divslogan hr{
+  left: 14px;
+  position: relative;
+    background: black;
+    height: 1px;
+    top: 92px;
+    width: 220px 
+}
+.vacancies{
+  font-family: 'Nanum Gothic', sans-serif;
+  position: relative;
+  left: 10%;
+  width: 800px;
+}
+h2{
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+.contactDetail{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.cakes{
+  width: 320px;
+  border-radius: 150px;
+}
+.cards{
+  width: 128%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  
+}
+.card{
+  height: 440px;
+  width: 250px;
+    border: 2px solid grey;
+    margin: 15px;
+   
+}
+.card:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card img{
+  padding: 20px 10px 5px 10px;
+ width: 200px;
+}
+.basketButton{
+   
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(57, 1, 26);
+  border: 1px solid rgb(57, 1, 26);
+}
+.basketButton:hover{
+  box-shadow: #282c34;
+  color: rgb(57, 1, 26);
+  border: 2px solid rgb(57, 1, 26);
+  background-color: bisque;
+
+}
+.buttonList{
+  margin: 8px;
+  color: #fff;
+  background-color: rgb(92, 144, 181);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid #fff;
+}
+.buttonList:hover{
+  margin: 8px;
+  color: rgb(7, 21, 32);
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ulList{
+  background-color: rgb(221, 202, 179);
+  width: 70%;
+  margin: auto;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.imgArray{
+  height: 230px;
+
+}
+.divmain li{
+ list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #282c34;
+}
+h4{
+  padding-top: 15px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.scrollToTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.cakeHeader{
+  font-family: 'Dancing Script', cursive;
+  border: 2px solid pink;
+  padding: 10px 0px ;
+  background-color: #fbfff0;
+  color: rgb(250, 152, 168);
+  border-radius: 20px;
+}
+#scrollToTopMain{
+  width: 50px;
+  height: 50px;
+    right: 20px;
+  background-color:rgb(241, 152, 166); 
+  border: none;
+  padding: 10px;
+  position: fixed;
+  border-radius: 20px;
+ 
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+#scrollToTop{
+  width: 50px;
+  height: 50px;
+  
+  right: 20px;
+  background-color: #007bff; 
+  /* position: relative;
+  bottom: 42px;
+  left: 44%; */
+  border: none;
+  padding: 10px;
+  position: fixed;
+  border-radius: 20px;
+ 
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+.slider{
+  width: 150px;
+  background-color: white;
+  height: 450px;
+  color: black;
+  border-radius: 10px;
+}
+.sliderImage{
+  
+  height: 56px;
+  background-color: indigo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.image{
+ 
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+
+}
+.container{
+  background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+    background-size: cover;
+    width: 128%;
+    height: 700px;
+
+}
+.guest{
+  margin: 40px;
+  font-size: 3rem;
+  padding-top: 150px;
+    color: #052f6e;
+    font-family: "Vidaloka", serif;
+}
+.container p{
+  position: relative;
+  width: 50%;
+  margin: 70px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  color: rgb(99, 98, 98);
+}
+.container_{
+  width: 128%;
+  position: absolute;
+  
+}
+#containerButton{
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(47, 19, 139);
+  transition: background-color 1s;
+  border: none;
+}
+#containerButton:hover{
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(86, 109, 193);
+  border: none;
+ 
+}
+.description{
+  width: 300px;
+  margin: auto;
+}
+.vacancies{
+display: flex;
+flex-wrap: wrap;
+}
+.vacancy{
+  margin: 20px;
+}
+#birthday , #chrismas , #fruit , #chocolate{
+  width: 128%;
+}
+}
+@media screen and (max-width: 700px) and (min-width: 550px) {
+  .App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.inputSearch{
+  width: 180px;
+  height: 25px;
+  margin: 15px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.header{
+ width: 155%;
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  background-color: rgb(57, 1, 26);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+nav{
+  margin-right: 30px;
+  display: flex;
+}
+.snowfall{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+
+}
+.tatli{
+  width: 160px;
+    height: 160px;
+}
+.navButton{
+  margin:  60px 25px;
+  padding: 15px;
+  border-radius: 8px;
+ 
+  font-size: 20px;
+  color: blanchedalmond;
+}
+.navButton:hover{
+  color: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+h1{
+ 
+  font-size: 40px;
+  margin: 40px;
+}
+main{
+  width: 155%;
+  display: flex;
+  justify-content: space-between;
+}
+.divmain{
+
+  height: 750px;
+  width: 90%;
+  /* background-color: #FCFEFD; */
+  background-image: url("./components/images/italian-berry.jpg") ;
+
+}
+#sections{
+  margin: 0px;
+  
+  padding: 0px;
+  background-color: #fbfff0;
+  width: 250px;
+  height: 750px;
+}
+
+.textMain{
+  font-size: 25px;
+  color: #fff;
+  
+}
+p a{
+  color: blanchedalmond;
+  text-decoration: none ;
+
+}
+p a:hover{
+  color: #fff;
+}
+.footer{
+  width: 155%;
+  height: 580px;
+  background-color: black;
+}
+.footer ul{
+  width: 50px;
+ padding-top: 40px;
+}
+li{
+  padding: 15px;
+ list-style-type: none;
+  font-size: 17px;
+  
+}
+.footer li a{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+hr{
+  width: 500px;
+}
+.insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+  color: #FCFEFD;
+  margin: 20px;
+  width: 70px;
+}
+.footer1{
+  display: flex;
+  justify-content: space-around;
+}
+.footer1 span{
+  margin:70px 25px;
+}
+.phoneNUm{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  color: #FCFEFD;
+  margin: 70px;
+}
+.gmail{
+  font-family: 'Roboto', sans-serif;
+  color: #FCFEFD;
+  margin:  1px 10px;
+}
+.slogan{
+  width: 150%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    height: 60px;
+    margin: 60px auto;
+
+}
+.formContact{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+}
+
+.topic{
+  width: 300px;
+  border-radius: 5px;
+  height: 100px;
+}
+.inputContact{
+  width: 300px;
+  border-radius: 5px;
+  height: 30px;
+}
+.submit{
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ffff;
+}
+.submit:hover{
+  height: 40px;
+  width: 100px;
+  background-color: #fff;
+  color: blue;
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+.about{
+  width: 155%;
+  display: flex;
+  justify-content: space-around;
+}
+.about img{
+  margin-top: 30px;
+  width: 251px;
+}
+.aboutText{
+  margin-top: 60px;
+    width: 50%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+.about_2{
+  width: 155%;
+  justify-content: space-around;
+  display: flex;
+}
+.about_2 img{
+  width: 350px;
+}
+.about_3{
+  width: 155%;
+  justify-content: space-around;
+  display: flex;
+}
+.about_3 img{
+  margin-top: 40px;
+  width: 22%;
+  height: 190px;
+
+}
+.about_3 p{
+  margin: 40px;
+  width: 50%;
+}
+.divslogan {
+  width: 150%;
+display: flex;
+justify-content: baseline;
+}
+.divslogan hr{
+  left: 14px;
+  position: relative;
+    background: black;
+    height: 1px;
+    top: 81px;
+    width: 381px 
+}
+.vacancies{
+  font-family: 'Nanum Gothic', sans-serif;
+  position: relative;
+  left: 8%;
+  width: 800px;
+}
+h2{
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+.contactDetail{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.cakes{
+  width: 320px;
+  border-radius: 150px;
+}
+.cards{
+  width: 155%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  
+}
+.card{
+    height: 410px;
+    width: 210px;
+    border: 2px solid grey;
+    margin: 15px;
+   
+}
+.card:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card img{
+  padding: 20px 10px 5px 10px;
+ width: 180px;
+}
+.basketButton{
+   
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(57, 1, 26);
+  border: 1px solid rgb(57, 1, 26);
+}
+.basketButton:hover{
+  box-shadow: #282c34;
+  color: rgb(57, 1, 26);
+  border: 2px solid rgb(57, 1, 26);
+  background-color: bisque;
+
+}
+.buttonList{
+  margin: 8px;
+  color: #fff;
+  background-color: rgb(92, 144, 181);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid #fff;
+}
+.buttonList:hover{
+  margin: 8px;
+  color: rgb(7, 21, 32);
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ulList{
+  background-color: rgb(221, 202, 179);
+  width: 70%;
+  margin: auto;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.imgArray{
+  height: 230px;
+
+}
+.divmain li{
+ list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #282c34;
+}
+h4{
+  padding-top: 15px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.scrollToTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.cakeHeader{
+  font-family: 'Dancing Script', cursive;
+  border: 2px solid pink;
+  padding: 10px 0px ;
+  background-color: #fbfff0;
+  color: rgb(250, 152, 168);
+  border-radius: 20px;
+}
+#scrollToTopMain{
+  width: 50px;
+  height: 50px;
+    right: 20px;
+  background-color:rgb(241, 152, 166); 
+  border: none;
+  padding: 10px;
+  position: fixed;
+  border-radius: 20px;
+ 
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+#scrollToTop{
+  width: 50px;
+  height: 50px;
+  
+  right: 20px;
+  background-color: #007bff; 
+  /* position: relative;
+  bottom: 42px;
+  left: 44%; */
+  border: none;
+  padding: 10px;
+  position: fixed;
+  border-radius: 20px;
+ 
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+.slider{
+  width: 150px;
+  background-color: white;
+  height: 450px;
+  color: black;
+  border-radius: 10px;
+}
+.sliderImage{
+  
+  height: 56px;
+  background-color: indigo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.image{
+ 
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+
+}
+.container{
+  background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+    background-size: cover;
+    width: 155%;
+    height: 700px;
+
+}
+.guest{
+  margin: 40px;
+  font-size: 3rem;
+  padding-top: 150px;
+    color: #052f6e;
+    font-family: "Vidaloka", serif;
+}
+.container p{
+  position: relative;
+  width: 50%;
+  margin: 70px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  color: rgb(99, 98, 98);
+}
+.container_{
+  width: 154%;
+  position: absolute;
+  
+}
+#containerButton{
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(47, 19, 139);
+  transition: background-color 1s;
+  border: none;
+}
+#containerButton:hover{
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(86, 109, 193);
+  border: none;
+ 
+}
+.description{
+  width: 300px;
+  margin: auto;
+}
+.vacancies{
+display: flex;
+flex-wrap: wrap;
+}
+.vacancy{
+  margin: 20px;
+}
+#birthday , #chrismas , #fruit , #chocolate{
+  width: 155%;
+}
+}
+@media screen and (max-width: 550px) and (min-width: 450px) {
+  .App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.inputSearch{
+  width: 150px;
+  height: 25px;
+  margin: 15px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.header{
+ width: 108%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(57, 1, 26);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+nav{
+  margin-right: 30px;
+  display: flex;
+}
+.snowfall{
+  width: 108%;
+  height: auto;
+  background-color: #fff;
+
+}
+.tatli{
+  width: 100px;
+    height: 100px;
+}
+.navButton{
+  margin: 41px 25px;
+    padding: 2px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: blanchedalmond;
+}
+.navButton:hover{
+  color: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+h1{
+ 
+  font-size: 40px;
+  margin: 35px;
+}
+main{
+  width: 108%;
+  display: flex;
+  justify-content: space-between;
+}
+.divmain{
+
+  height: 650px;
+  width: 90%;
+  /* background-color: #FCFEFD; */
+  background-image: url("./components/images/italian-berry.jpg") ;
+
+}
+#sections{
+  margin: 0px;
+  
+  padding: 0px;
+  background-color: #fbfff0;
+  width: 200px;
+  height: 650px;
+}
+
+.textMain{
+  font-size: 25px;
+  color: #fff;
+  
+}
+p a{
+  color: blanchedalmond;
+  text-decoration: none ;
+
+}
+p a:hover{
+  color: #fff;
+}
+.footer{
+  width: 105.9%;
+  height: 580px;
+  background-color: black;
+}
+.footer ul{
+  width: 50px;
+ padding-top: 40px;
+}
+li{
+  padding: 15px;
+ list-style-type: none;
+  font-size: 14px;
+  
+}
+.footer li a{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+hr{
+  width: 450px;
+}
+.insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+  color: #FCFEFD;
+  margin: 10px;
+  width: 70px;
+}
+.footer1{
+  display: flex;
+  justify-content: space-around;
+}
+.footer1 span{
+  margin:70px 25px;
+}
+.phoneNUm{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  color: #FCFEFD;
+  margin: 70px;
+}
+.gmail{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #FCFEFD;
+  margin:  1px 10px;
+}
+.slogan{
+  width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    height: 60px;
+    margin: 60px auto;
+
+}
+.formContact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+}
+
+.topic{
+  width: 300px;
+  border-radius: 5px;
+  height: 100px;
+}
+.inputContact{
+  width: 300px;
+  border-radius: 5px;
+  height: 30px;
+}
+.submit{
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ffff;
+}
+.submit:hover{
+  height: 40px;
+  width: 100px;
+  background-color: #fff;
+  color: blue;
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+.about{
+  width: 108%;
+  display: flex;
+  justify-content: space-around;
+}
+.about img{
+  margin-top: 60px;
+    width: 200px;
+    height: 250px;
+}
+.aboutText{
+  margin-top: 60px;
+    width: 50%;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.about_2{
+  width: 108%;
+  justify-content: space-around;
+  display: flex;
+}
+.about_2 img{
+  width: 240px;
+}
+.about_3{
+  width: 108%;
+  justify-content: space-around;
+  display: flex;
+}
+.about_3 img{
+  margin-top: 40px;
+    width: 32%;
+    height: 165px;
+
+}
+.about_3 p{
+  font-size: 12px;
+  margin: 40px;
+  width: 50%;
+}
+.divslogan {
+  width: 105.9%;
+display: flex;
+justify-content: baseline;
+}
+.divslogan hr{
+  left: 14px;
+  position: relative;
+  background: black;
+  height: 1px;
+  top: 74px;
+  width: 86px;
+}
+.vacancies{
+  font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    left: 23%;
+    width: 300px;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+.contactDetail{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.cakes{
+  width: 320px;
+  border-radius: 150px;
+}
+.cards{
+  width: 108%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  
+}
+.card{
+  height: 330px;
+  width: 160px;
+  border: 2px solid grey;
+  margin: 15px;
+   
+}
+.card:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card img{
+  padding: 20px 10px 5px 10px;
+ width: 100px;
+ height: 140px;
+}
+.basketButton{
+   
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(57, 1, 26);
+  border: 1px solid rgb(57, 1, 26);
+}
+.basketButton:hover{
+  box-shadow: #282c34;
+  color: rgb(57, 1, 26);
+  border: 2px solid rgb(57, 1, 26);
+  background-color: bisque;
+
+}
+.buttonList{
+  margin: 8px;
+  color: #fff;
+  background-color: rgb(92, 144, 181);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid #fff;
+}
+.buttonList:hover{
+  margin: 8px;
+  color: rgb(7, 21, 32);
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ulList{
+  background-color: rgb(221, 202, 179);
+  width: 70%;
+  margin: auto;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.imgArray{
+  height: 230px;
+
+}
+.divmain li{
+ list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #282c34;
+}
+h4{
+  padding-top: 15px;
+  margin-top: 10px;
+  font-size: 22px;
+}
+.scrollToTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.cakeHeader{
+  font-family: 'Dancing Script', cursive;
+  border: 2px solid pink;
+  padding: 10px 0px ;
+  background-color: #fbfff0;
+  color: rgb(250, 152, 168);
+  border-radius: 20px;
+}
+#scrollToTopMain{
+  width: 50px;
+  height: 50px;
+    right: 20px;
+  background-color:rgb(241, 152, 166); 
+  border: none;
+  padding: 10px;
+  position: fixed;
+  border-radius: 20px;
+ 
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+#scrollToTop{
+  width: 50px;
+  height: 50px;
+  
+  right: 20px;
+  background-color: #007bff; 
+  /* position: relative;
+  bottom: 42px;
+  left: 44%; */
+  border: none;
+  padding: 10px;
+  position: fixed;
+  border-radius: 20px;
+ 
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+.slider{
+  width: 150px;
+  background-color: white;
+  height: 450px;
+  color: black;
+  border-radius: 10px;
+}
+.sliderImage{
+  
+  height: 56px;
+  background-color: indigo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.image{
+ 
+  height: 44px;
+  width: 44px;
+  border-radius: 5px;
+
+}
+.container{
+  background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+    background-size: cover;
+    width: 108%;
+    height: 700px;
+
+}
+.guest{
+  margin: 40px;
+  font-size: 3rem;
+  padding-top: 80px;
+    color: #052f6e;
+    font-family: "Vidaloka", serif;
+}
+.container p{
+  position: relative;
+  width: 50%;
+  margin: 70px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  color: rgb(99, 98, 98);
+}
+.container_{
+  width: 108%;
+  position: absolute;
+  
+}
+#containerButton{
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(47, 19, 139);
+  transition: background-color 1s;
+  border: none;
+}
+#containerButton:hover{
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(86, 109, 193);
+  border: none;
+ 
+}
+.description{
+  width: 300px;
+  margin: auto;
+}
+.vacancies{
+display: flex;
+flex-wrap: wrap;
+}
+.vacancy{
+  width: 200px;
+  margin: 20px;
+}
+#birthday , #chrismas , #fruit , #chocolate{
+  width: 108%;
+}
+}
+@media screen and (max-width: 400px) and (min-width: 300px) {
+  .App {
+    text-align: center;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .inputSearch{
+    width: 150px;
+    height: 25px;
+    margin: 15px;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  body{
+    scroll-behavior: smooth;
+  }
+  
+  .header{
+   width: 176%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(57, 1, 26);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  nav{
+    margin-right: 30px;
+    display: flex;
+  }
+  .snowfall{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  
+  }
+  .tatli{
+    width: 100px;
+      height: 100px;
+  }
+  .navButton{
+    margin: 41px 25px;
+      padding: 2px;
+      border-radius: 8px;
+      font-size: 12px;
+      color: blanchedalmond;
+  }
+  .navButton:hover{
+    color: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  h1{
+   
+    font-size: 40px;
+    margin: 35px;
+  }
+  main{
+    width: 176%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .divmain{
+  
+    height: 650px;
+    width: 90%;
+    /* background-color: #FCFEFD; */
+    background-image: url("./components/images/italian-berry.jpg") ;
+  
+  }
+  #sections{
+    margin: 0px;
+    
+    padding: 0px;
+    background-color: #fbfff0;
+    width: 200px;
+    height: 650px;
+  }
+  
+  .textMain{
+    font-size: 25px;
+    color: #fff;
+    
+  }
+  p a{
+    color: blanchedalmond;
+    text-decoration: none ;
+  
+  }
+  p a:hover{
+    color: #fff;
+  }
+  .footer{
+    width: 176%;
+    height: 580px;
+    background-color: black;
+  }
+  .footer ul{
+    width: 50px;
+   padding-top: 40px;
+  }
+  li{
+    padding: 15px;
+   list-style-type: none;
+    font-size: 11px;
+    
+  }
+  .footer li a{
+    text-decoration: none;
+    color: blanchedalmond;
+  }
+  hr{
+    width: 250px;
+  }
+  .insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+    color: #FCFEFD;
+    margin: 10px;
+    width: 70px;
+  }
+  .footer1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer1 span{
+    margin:70px 25px;
+  }
+  .phoneNUm{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    color: #FCFEFD;
+    margin: 70px 8px;
+  }
+  .gmail{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: #FCFEFD;
+    margin:  1px 10px;
+  }
+  .slogan{
+    width: 176%;
+      font-family: 'Dancing Script', cursive;
+      font-size: 32px;
+      height: 60px;
+      margin: 60px auto;
+  
+  }
+  .divslogan {
+    width: 176%;
+  display: flex;
+  justify-content: baseline;
+  }
+  .divslogan hr{
+    left: 14px;
+    position: relative;
+    background: black;
+    height: 1px;
+    top: 74px;
+    width: 86px;
+  }
+  .formContact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 130%;
+    height: 800px;
+  }
+  
+  .topic{
+    width: 300px;
+    border-radius: 5px;
+    height: 100px;
+  }
+  .inputContact{
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+  }
+  .submit{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+  }
+  .submit:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 8px;
+    border: 1px solid blue;
+  }
+  .about{
+    width: 176%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .about img{
+    margin-top: 60px;
+      width: 200px;
+      height: 250px;
+  }
+  .aboutText{
+    margin-top: 60px;
+      width: 50%;
+      font-size: 12px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  .about_2{
+    width: 176%;
+    justify-content: space-around;
+    display: flex;
+  }
+  .about_2 img{
+    width: 240px;
+  }
+  .about_3{
+    width: 176%;
+    justify-content: space-around;
+    display: flex;
+  }
+  .about_3 img{
+    margin-top: 40px;
+      width: 32%;
+      height: 165px;
+  
+  }
+  .about_3 p{
+    font-size: 12px;
+    margin: 40px;
+    width: 50%;
+  }
+ 
+  .vacancies{
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    left: 20%;
+    width: 300px;
+  }
+  h2{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .contactDetail{
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .cakes{
+    width: 320px;
+    border-radius: 150px;
+  }
+  .cards{
+    width: 176%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    
+  }
+  .card{
+    height: 330px;
+    width: 160px;
+    border: 2px solid grey;
+    margin: 15px;
+     
+  }
+  .card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .card img{
+    padding: 20px 10px 5px 10px;
+   width: 100px;
+   height: 140px;
+  }
+  .basketButton{
+     
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(57, 1, 26);
+    border: 1px solid rgb(57, 1, 26);
+  }
+  .basketButton:hover{
+    box-shadow: #282c34;
+    color: rgb(57, 1, 26);
+    border: 2px solid rgb(57, 1, 26);
+    background-color: bisque;
+  
+  }
+  .buttonList{
+    margin: 8px;
+    color: #fff;
+    background-color: rgb(92, 144, 181);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+  }
+  .buttonList:hover{
+    margin: 8px;
+    color: rgb(7, 21, 32);
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .ulList{
+    background-color: rgb(221, 202, 179);
+    width: 70%;
+    margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .imgArray{
+    height: 230px;
+  
+  }
+  .divmain li{
+   list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: #282c34;
+  }
+  h4{
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .scrollToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  .cakeHeader{
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid pink;
+    padding: 10px 0px ;
+    background-color: #fbfff0;
+    color: rgb(250, 152, 168);
+    border-radius: 20px;
+  }
+  #scrollToTopMain{
+    width: 50px;
+    height: 50px;
+      right: 20px;
+    background-color:rgb(241, 152, 166); 
+    border: none;
+    padding: 10px;
+    position: fixed;
+    border-radius: 20px;
+   
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  #scrollToTop{
+    width: 50px;
+    height: 50px;
+    
+    right: 20px;
+    background-color: #007bff; 
+    /* position: relative;
+    bottom: 42px;
+    left: 44%; */
+    border: none;
+    padding: 10px;
+    position: fixed;
+    border-radius: 20px;
+   
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  .slider{
+    width: 150px;
+    background-color: white;
+    height: 450px;
+    color: black;
+    border-radius: 10px;
+  }
+  .sliderImage{
+    
+    height: 56px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .image{
+   
+    height: 44px;
+    width: 44px;
+    border-radius: 5px;
+  
+  }
+  .container{
+    background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+      background-size: cover;
+      width: 176%;
+      height: 700px;
+  
+  }
+  .guest{
+    margin: 40px;
+    font-size: 3rem;
+    padding-top: 80px;
+      color: #052f6e;
+      font-family: "Vidaloka", serif;
+  }
+  .container p{
+    position: relative;
+    width: 50%;
+    margin: 45px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: rgb(99, 98, 98);
+  }
+  .container_{
+    width: 176%;
+    position: absolute;
+    
+  }
+  #containerButton{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(47, 19, 139);
+    transition: background-color 1s;
+    border: none;
+  }
+  #containerButton:hover{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(86, 109, 193);
+    border: none;
+   
+  }
+  .description{
+    width: 300px;
+    margin: auto;
+  }
+  .vacancies{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .vacancy{
+    width: 200px;
+    margin: 20px;
+  }
+  #birthday , #chrismas , #fruit , #chocolate{
+    width: 176%;
+  }
+  }
+  @media screen and (max-width: 450px) and (min-width: 400px) {
+    .App {
+      text-align: center;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    }
+    .inputSearch{
+      width: 150px;
+      height: 25px;
+      margin: 15px;
+    }
+    .App-header {
+      background-color: #282c34;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    
+    .App-link {
+      color: #61dafb;
+    }
+    
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    body{
+      scroll-behavior: smooth;
+    }
+    
+    .header{
+     width: 176%;
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      background-color: rgb(57, 1, 26);
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+    
+    nav{
+      margin-right: 30px;
+      display: flex;
+    }
+    .snowfall{
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+    
+    }
+    .tatli{
+      width: 100px;
+        height: 100px;
+    }
+    .navButton{
+      margin: 41px 25px;
+        padding: 2px;
+        border-radius: 8px;
+        font-size: 12px;
+        color: blanchedalmond;
+    }
+    .navButton:hover{
+      color: #fff;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+    h1{
+      width: 100%;
+      font-size: 40px;
+      margin: 30px 66px;
+    }
+    main{
+      width: 176%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .divmain{
+    
+      height: 650px;
+      width: 90%;
+      /* background-color: #FCFEFD; */
+      background-image: url("./components/images/italian-berry.jpg") ;
+    
+    }
+    #sections{
+      margin: 0px;
+      
+      padding: 0px;
+      background-color: #fbfff0;
+      width: 200px;
+      height: 650px;
+    }
+    
+    .textMain{
+      font-size: 25px;
+      color: #fff;
+      
+    }
+    p a{
+      color: blanchedalmond;
+      text-decoration: none ;
+    
+    }
+    p a:hover{
+      color: #fff;
+    }
+    .footer{
+      width: 176%;
+      height: 580px;
+      background-color: black;
+    }
+    .footer ul{
+      width: 50px;
+     padding-top: 40px;
+    }
+    li{
+      padding: 15px;
+     list-style-type: none;
+      font-size: 11px;
+      
+    }
+    .footer li a{
+      text-decoration: none;
+      color: blanchedalmond;
+    }
+    hr{
+      width: 250px;
+    }
+    .insta-icon , .twitter-icon , .wp-icon, .facebook-icon{
+      color: #FCFEFD;
+      margin: 10px;
+      width: 70px;
+    }
+    .footer1{
+      display: flex;
+      justify-content: space-around;
+    }
+    .footer1 span{
+      margin:70px 25px;
+    }
+    .phoneNUm{
+      font-size: 10px;
+      font-family: 'Roboto', sans-serif;
+      padding: 0px;
+      color: #FCFEFD;
+      margin: 70px 8px;
+    }
+    .gmail{
+      font-size: 11px;
+      font-family: 'Roboto', sans-serif;
+      color: #FCFEFD;
+      margin:  1px 10px;
+    }
+    .slogan{
+      width: 130%;
+        font-family: 'Dancing Script', cursive;
+        font-size: 32px;
+        height: 60px;
+        margin: 60px auto;
+    
+    }
+    .divslogan {
+      width: 125%;
+    display: flex;
+    justify-content: baseline;
+    }
+    .divslogan hr{
+      left: 14px;
+      position: relative;
+      background: black;
+      height: 1px;
+      top: 74px;
+      width: 86px;
+    }
+    .formContact{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 30px;
+      width: 176%;
+      height: 800px;
+    }
+    
+    .topic{
+      width: 300px;
+      border-radius: 5px;
+      height: 100px;
+    }
+    .inputContact{
+      width: 300px;
+      border-radius: 5px;
+      height: 30px;
+    }
+    .submit{
+      height: 40px;
+      width: 100px;
+      background-color: blue;
+      color: #fff;
+      border-radius: 8px;
+      border: 1px solid #ffff;
+    }
+    .submit:hover{
+      height: 40px;
+      width: 100px;
+      background-color: #fff;
+      color: blue;
+      border-radius: 8px;
+      border: 1px solid blue;
+    }
+    .about{
+      width: 176%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .about img{
+      margin-top: 60px;
+        width: 200px;
+        height: 250px;
+    }
+    .aboutText{
+      margin-top: 60px;
+        width: 50%;
+        font-size: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    }
+    .about_2{
+      width: 176%;
+      justify-content: space-around;
+      display: flex;
+    }
+    .about_2 img{
+      width: 240px;
+    }
+    .about_3{
+      width: 176%;
+      justify-content: space-around;
+      display: flex;
+    }
+    .about_3 img{
+      margin-top: 40px;
+        width: 32%;
+        height: 165px;
+    
+    }
+    .about_3 p{
+      font-size: 12px;
+      margin: 40px;
+      width: 50%;
+    }
+   
+    .vacancies{
+      font-family: 'Nanum Gothic', sans-serif;
+      position: relative;
+      left: 20%;
+      width: 300px;
+    }
+    h2{
+      font-size: 30px;
+      font-family: 'Dancing Script', cursive;
+    }
+    .contactDetail{
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    .cakes{
+      width: 320px;
+      border-radius: 150px;
+    }
+    .cards{
+      width: 176%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      display: flex;
+      
+    }
+    .card{
+      height: 330px;
+      width: 160px;
+      border: 2px solid grey;
+      margin: 15px;
+       
+    }
+    .card:hover{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .card img{
+      padding: 20px 10px 5px 10px;
+     width: 100px;
+     height: 140px;
+    }
+    .basketButton{
+       
+      width: 100px;
+      height: 30px;
+      color: #fff;
+      background-color: rgb(57, 1, 26);
+      border: 1px solid rgb(57, 1, 26);
+    }
+    .basketButton:hover{
+      box-shadow: #282c34;
+      color: rgb(57, 1, 26);
+      border: 2px solid rgb(57, 1, 26);
+      background-color: bisque;
+    
+    }
+    .buttonList{
+      margin: 8px;
+      color: #fff;
+      background-color: rgb(92, 144, 181);
+      width: 50px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 20px;
+      border: 2px solid #fff;
+    }
+    .buttonList:hover{
+      margin: 8px;
+      color: rgb(7, 21, 32);
+      background-color: rgb(255, 255, 255);
+      width: 50px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 20px;
+      border: 2px solid #fff;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .ulList{
+      background-color: rgb(221, 202, 179);
+      width: 70%;
+      margin: auto;
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    .imgArray{
+      height: 230px;
+    
+    }
+    .divmain li{
+     list-style-type: none;
+    }
+    a{
+      text-decoration: none;
+      color: #282c34;
+    }
+    h4{
+      padding-top: 15px;
+      margin-top: 10px;
+      font-size: 22px;
+    }
+    .scrollToTop{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      padding: 10px;
+      color: #fff;
+      background-color: #007bff;
+      cursor: pointer;
+      border-radius: 5px;
+    
+    }
+    .cakeHeader{
+      font-family: 'Dancing Script', cursive;
+      border: 2px solid pink;
+      padding: 10px 0px ;
+      background-color: #fbfff0;
+      color: rgb(250, 152, 168);
+      border-radius: 20px;
+    }
+    #scrollToTopMain{
+      width: 50px;
+      height: 50px;
+        right: 20px;
+      background-color:rgb(241, 152, 166); 
+      border: none;
+      padding: 10px;
+      position: fixed;
+      border-radius: 20px;
+     
+      bottom: 20px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+    }
+    #scrollToTop{
+      width: 50px;
+      height: 50px;
+      
+      right: 20px;
+      background-color: #007bff; 
+      /* position: relative;
+      bottom: 42px;
+      left: 44%; */
+      border: none;
+      padding: 10px;
+      position: fixed;
+      border-radius: 20px;
+     
+      bottom: 20px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+    }
+    .slider{
+      width: 150px;
+      background-color: white;
+      height: 450px;
+      color: black;
+      border-radius: 10px;
+    }
+    .sliderImage{
+      
+      height: 56px;
+      background-color: indigo;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+    }
+    .image{
+     
+      height: 44px;
+      width: 44px;
+      border-radius: 5px;
+    
+    }
+    .container{
+      background-image: url('https://tallahasseecakeshop.com/wp-content/themes/cakeshop/img/guestbg.jpg');
+        background-size: cover;
+        width: 176%;
+        height: 700px;
+    
+    }
+    .guest{
+      margin: 40px;
+      font-size: 3rem;
+      padding-top: 80px;
+        color: #052f6e;
+        font-family: "Vidaloka", serif;
+    }
+    .container p{
+      position: relative;
+      width: 50%;
+      margin: 45px auto;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      color: rgb(99, 98, 98);
+    }
+    .container_{
+      width: 176%;
+      position: absolute;
+      
+    }
+    #containerButton{
+      width: 120px;
+      height: 40px;
+      color: #fff;
+      background-color: rgb(47, 19, 139);
+      transition: background-color 1s;
+      border: none;
+    }
+    #containerButton:hover{
+      width: 120px;
+      height: 40px;
+      color: #fff;
+      background-color: rgb(86, 109, 193);
+      border: none;
+     
+    }
+    .description{
+      width: 300px;
+      margin: auto;
+    }
+    .vacancies{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .vacancy{
+      width: 200px;
+      margin: 20px;
+    }
+    #birthday , #chrismas , #fruit , #chocolate{
+      width: 176%;
+    }
+    }
